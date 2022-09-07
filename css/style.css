@@ -1,3 +1,4 @@
+//Estilo da página principal
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -79,4 +80,19 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     margin-top: 20px;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p {
+    padding: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
