@@ -1,4 +1,4 @@
-//Estilo da página principal
+/*Estilo da página principal*/
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -95,4 +95,43 @@ footer {
 .mapa-conteudo {
     width: 940px;
     margin: 0 auto;
+}
+
+.beneficios {
+    padding: 2em 0;
+    background: #888888;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens::before {
+    content: "✭";
+}
+
+.imagens-beneficios {
+    width: 60%;
+    opacity: 0.8;
+    transition: 400ms;
+}
+
+.imagens-beneficios:hover {
+    opacity: 1;
+    box-shadow: 0 0 30px 0 #000000;
 }
